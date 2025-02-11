@@ -1,0 +1,109 @@
+@media(max-width:768px){  /*for phone screen */
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:1024px){ /*for tablet screen */
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    } 
+}
+body{
+    background-image:linear-gradient(#0061FF,#60EFFF) ;
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+   
+
+}
+.logo{
+    color:wheat;
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+.links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.links a{
+    color: wheat;
+    ;
+
+}
+.links a:hover{
+    color: chartreuse;
+}
+.links a:active{
+    color: red;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.intro{
+text-align: center;
+color:black;
+margin: 0px;
+}
+.homebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Education Page */
+.containeredu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+
+}
+.second{
+    border-left: 2px solid black;
+     height: 100%;
+     padding: 10px;
+}
+/* Footer styling */
+footer{
+    text-align: center;
+}
+/* Experience styling */
+.containerx{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    border: 3px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 30px;
+
+}
+.firstx{
+    border-right: 3px solid black;
+    
+}
+.secondx{
+    border-right: 3px solid black;
+}
+.containerxx{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    border: 3px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.firstxx{
+    border-right: 3px solid black;
+}
+.secondxx{
+    border-right: 3px solid black;
+}
